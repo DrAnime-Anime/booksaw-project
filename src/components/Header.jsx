@@ -7,7 +7,7 @@ const Header = () => {
     // Check if jQuery and the plugin exist on the window object (loaded from public/index.html)
     if (window.jQuery && window.jQuery.fn.stellarNav) {
       window.jQuery(".stellarnav").stellarNav({
-        theme: "dark", // Example option: adjust as needed
+        theme: "plain", // Example option: adjust as needed
         breakpoint: 991,
       });
     }

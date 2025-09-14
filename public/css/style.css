@@ -2442,3 +2442,55 @@ footer#footer {
     width: 100%;
   }
 }
+
+/* ==============================================
+   ADORIA BRAND - NEW COLOR PALETTE OVERRIDE
+   ============================================== */
+
+/* 1. Change main background to a soft off-white and text to a softer dark grey */
+body {
+  background-color: #FEFDFB; 
+  color: #5C5C5C; 
+}
+
+/* 2. Change all headings and titles to the dark teal from your logo */
+h1, h2, h3, h4, h5, h6,
+.section-title,
+.banner-title,
+.product-entry .item-title,
+.post-item h3 a {
+  color: #3C5A6B; /* Dark Blue/Teal from Adoria logo */
+}
+
+/* 3. Change all accent colors from brown to the soft peach from your logo */
+
+/* Links, dates, and hovers */
+a:hover,
+.footer-menu a:hover,
+.post-item .meta-date,
+.social-links ul li a:hover,
+.stellarnav.plain > ul > li.active > a,
+.stellarnav.plain > ul > li > a:hover {
+  color: #FAA082; /* Peach from Adoria logo */
+}
+
+/* Buttons and the little underline dividers */
+.btn-outline-accent,
+.btn-accent-arrow,
+.section-title.divider::before,
+#quotation .divider::before {
+  color: #FAA082;
+  border-color: #FAA082; /* Make sure borders match */
+}
+
+/* Button arrow icon background */
+.btn-accent-arrow i {
+  background-color: #FAA082;
+}
+
+/* 4. Make the header background match the rest of the page */
+#header-wrap,
+#header {
+  background-color: #FEFDFB; /* Match the new body background */
+  border-bottom: 1px solid #eee; /* Add a subtle line to separate it */
+}
