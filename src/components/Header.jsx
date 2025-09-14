@@ -31,7 +31,7 @@ const Header = () => {
             <div className="main-logo">
               <a href="index.html">
                 <img
-                  src="https://nzmzepluhwljssaekvnu.supabase.co/storage/v1/object/public/aditi%20sharma/main-logo.png"
+                  src="https://nzmzepluhwljssaekvnu.supabase.co/storage/v1/object/public/aditi%20sharma/chocolat/image-removebg-preview.png"
                   alt="logo"
                 />
               </a>

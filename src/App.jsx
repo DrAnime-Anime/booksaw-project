@@ -6,7 +6,7 @@ import TopContent from "./components/TopContent.jsx";
 import Header from "./components/Header.jsx";
 import Billboard from "./components/Billboard.jsx";
 import ClientLogos from "./components/ClientLogos.jsx";
-import BestSellingBook from "./components/BestSellingBook.jsx";
+import FeaturedBooks from "./components/BestSellingBook.jsx";
 import QuoteOfDay from "./components/QuoteOfDay.jsx";
 import Subscribe from "./components/Subscribe.jsx";
 import LatestArticles from "./components/LatestArticles.jsx";
@@ -35,7 +35,7 @@ function App() {
 
       <Billboard />
       <ClientLogos />
-      <BestSellingBook />
+      <FeaturedBooks />
       <QuoteOfDay />
       <Subscribe />
       <LatestArticles />
